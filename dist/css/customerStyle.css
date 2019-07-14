@@ -1,0 +1,41 @@
+body{
+    background-color: ghostwhite;
+}
+body div:nth-child(1){
+    width: 99%;
+    height: 5%;
+    background-color: white;
+    position: absolute;
+
+}
+body div:nth-child(2){
+    margin-top: 3%;
+    width: 70%;
+    height: 55%;
+    background-color: white;
+    position: absolute;
+}
+body div:nth-child(3){
+    margin-top: 3%;
+    margin-left: 71%;
+    width: 28%;
+    height: 55%;
+    background-color: white;
+    position: absolute;
+}
+body div:nth-child(4){
+    margin-top: 30.5%;
+    width: 99%;
+    height: 35%;
+    background-color: white;
+    position: absolute;
+}
+#headline{
+    position: absolute;
+    margin-left: 50%;
+    bottom:6%;
+}
+#content{
+    top: 10%;
+    left: 10%;
+}

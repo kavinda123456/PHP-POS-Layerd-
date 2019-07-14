@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>invoice</title>
+    <link rel="stylesheet"href="css/bootstrap.css">
+    <link rel="stylesheet"href="js/bootstrap.js">
+    <link rel="stylesheet" href="css/myStyke.css"/>
+    <script src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+          integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Anton&display=swap');
+        #slide{
+            height: 670px;
+            width: 20%;
+            background-color: #23272b;
+        }
+    </style>
+</head>
+<body>
+<div class="row">
+    <div class="col-md-12">
+        <div class="row" style="background-color: #17a2b8">
+            <div class="col-md-4" style="font-size: 40px;font-family: 'Anton', sans-serif;"><i class="fas fa-smile-beam"style="padding:15px"></i>POS System</div>
+            <div class="col-md-8"><a class="nav-link active text-dark font-weight-bold" href="index.html" style="left:-200px;position: absolute;top: 10px">Dashboard</a></div>
+        </div>
+    </div>
+    <div class="row" id="slide">
+        <div class="col-md-4">
+            <div class="row">
+                <div class="col-md-12">
+                    <ul class="nav flex-column">
+                        <li class="nav-item" id="nav1">
+                            <a class="nav-link active" href="customer.html"><img src="image/Customer_48px.png" height="48" width="48"/>Customer</a>
+                        </li>
+                        <li class="nav-item" style="font-size: 35px">
+                            <a class="nav-link" href="item.html"><img src="image/Ingredients_48px.png" height="48" width="48"/>Item</a>
+                        </li>
+                        <li class="nav-item" style="font-size: 35px">
+                            <a class="nav-link" href="invoice.html"><img src="image/Purchase Order_48px.png" height="48" width="48"/>Order</a>
+                        </li>
+                        <li class="nav-item" style="font-size: 35px">
+                            <a class="nav-link" href="orderview.html"><img src="image/Supplier_50px.png" height="50" width="50"/>Order View</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="col-md-8 ">
+        <div class="col-md-12">
+            <div id="content">
+                <table>
+                    <tr >
+                        <td>
+                            <label>Select Item</label>
+                            <input type="text" class="form-control col-md-12">
+                        </td>
+                        <td>
+                            <label>search by code</label>
+                            <input type="text" class="form-control col-md-12">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Item Name</label>
+                            <input type="text" class="form-control col-md-12">
+                        </td>
+                        <td>
+                            <label>Qty Available</label>
+                            <input type="text" class="form-control col-md-12">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label>Unit Price</label>
+                            <input type="text" class="form-control col-md-12">
+                        </td>
+                        <td>
+                            <label>Qty</label>
+                            <input type="text" class="form-control col-md-12">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+        <div class="col-md-4"style="right: 0px;position: absolute;top: 0px">
+            <table>
+                <tr >
+                    <td>
+                        <label>Select Item</label>
+                        <input type="text" class="form-control col-12">
+                    </td>
+                    <td>
+                        <label>search by code</label>
+                        <input type="text" class="form-control col-12">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Item Name</label>
+                        <input type="text" class="form-control col-12">
+                    </td>
+                    <td>
+                        <label>Qty Available</label>
+                        <input type="text" class="form-control col-12">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label>Unit Price</label>
+                        <input type="text" class="form-control col-12">
+                    </td>
+                    <td>
+                        <label>Qty</label>
+                        <input type="text" class="form-control col-12">
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="col-md-12" style="bottom: 150px;position: absolute;left: 120px">
+        <div class="container" style="left: 10%;top: 25%">
+            <table class="table">
+                <thead class="thead-dark">
+                <tr>
+                    <th scope="col">Item Code</th>
+                    <th scope="col">Item Name</th>
+                    <th scope="col">Unit Price</th>
+                    <th scope="col">Qty</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th scope="row">3</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                </tbody>
+            </table>
+            <div style="bottom: 0px;left: 50%;font-size: 30px"><label>Sub Total:<sup>Rs</sup>00000.00</label></div>
+            <div style="right: 450px;position: absolute;top: 170px">
+                <!--<div style="top: -25%"><label>Sub Total:<sup>Rs</sup>00000.00</label></div>-->
+                <label>Discount</label>
+                <input type="text" class="form-control col-md-12">
+                <label>Payment</label>
+                <input type="text" class="form-control col-md-12">
+                <label>Balance</label>
+                <input type="text" class="form-control col-md-12">
+
+                <button class=" btn btn-danger col-md-6"style="right: -150px;position: absolute;top: 170px">Proceed</button>
+
+                <button class="btn btn-primary col-md-6"style="right: -270px;position: absolute;top: 170px">clear</button>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
